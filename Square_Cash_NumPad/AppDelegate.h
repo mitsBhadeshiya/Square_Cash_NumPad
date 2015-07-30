@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NumpadView.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+-(UILabel *)BottomLinelbl:(UIButton *)btn;
++(AppDelegate *)sharedAppDelegate;
 
 @end
 

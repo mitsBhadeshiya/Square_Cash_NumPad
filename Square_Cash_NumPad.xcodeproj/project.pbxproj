@@ -9,22 +9,20 @@
 /* Begin PBXBuildFile section */
 		2CDC4D441B6A2F360064B7A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC4D431B6A2F360064B7A7 /* main.m */; };
 		2CDC4D471B6A2F360064B7A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC4D461B6A2F360064B7A7 /* AppDelegate.m */; };
-		2CDC4D4A1B6A2F360064B7A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC4D491B6A2F360064B7A7 /* ViewController.m */; };
-		2CDC4D4D1B6A2F360064B7A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D4B1B6A2F360064B7A7 /* Main.storyboard */; };
 		2CDC4D4F1B6A2F360064B7A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D4E1B6A2F360064B7A7 /* Images.xcassets */; };
-		2CDC4D521B6A2F360064B7A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D501B6A2F360064B7A7 /* LaunchScreen.xib */; };
-		2CDC4D5E1B6A2F360064B7A7 /* Square_Cash_NumPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC4D5D1B6A2F360064B7A7 /* Square_Cash_NumPadTests.m */; };
+		2CDC4D6B1B6A304A0064B7A7 /* NumpadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC4D691B6A304A0064B7A7 /* NumpadView.m */; };
+		2CDC4D6C1B6A304A0064B7A7 /* NumpadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D6A1B6A304A0064B7A7 /* NumpadView.xib */; };
+		2CDC4D701B6A322C0064B7A7 /* BBCyclingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC4D6F1B6A322C0064B7A7 /* BBCyclingLabel.m */; };
+		2CDC4D731B6A34E10064B7A7 /* cancelbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D721B6A34E10064B7A7 /* cancelbtn.png */; };
+		2CDC4D7D1B6A37FB0064B7A7 /* GOTHAM-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D751B6A37FB0064B7A7 /* GOTHAM-BOLD.OTF */; };
+		2CDC4D7E1B6A37FB0064B7A7 /* GOTHAM-BOLDITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D761B6A37FB0064B7A7 /* GOTHAM-BOLDITALIC.OTF */; };
+		2CDC4D7F1B6A37FB0064B7A7 /* GOTHAM-BOOK.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D771B6A37FB0064B7A7 /* GOTHAM-BOOK.OTF */; };
+		2CDC4D801B6A37FB0064B7A7 /* GOTHAM-BOOKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D781B6A37FB0064B7A7 /* GOTHAM-BOOKITALIC.OTF */; };
+		2CDC4D811B6A37FB0064B7A7 /* GOTHAM-LIGHT.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D791B6A37FB0064B7A7 /* GOTHAM-LIGHT.OTF */; };
+		2CDC4D821B6A37FB0064B7A7 /* GOTHAM-LIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D7A1B6A37FB0064B7A7 /* GOTHAM-LIGHTITALIC.OTF */; };
+		2CDC4D831B6A37FB0064B7A7 /* GOTHAM-MEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D7B1B6A37FB0064B7A7 /* GOTHAM-MEDIUM.OTF */; };
+		2CDC4D841B6A37FB0064B7A7 /* GOTHAM-MEDIUMITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 2CDC4D7C1B6A37FB0064B7A7 /* GOTHAM-MEDIUMITALIC.OTF */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2CDC4D581B6A2F360064B7A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2CDC4D361B6A2F360064B7A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2CDC4D3D1B6A2F360064B7A7;
-			remoteInfo = Square_Cash_NumPad;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2CDC4D3E1B6A2F360064B7A7 /* Square_Cash_NumPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square_Cash_NumPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,25 +30,25 @@
 		2CDC4D431B6A2F360064B7A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CDC4D451B6A2F360064B7A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CDC4D461B6A2F360064B7A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2CDC4D481B6A2F360064B7A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2CDC4D491B6A2F360064B7A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2CDC4D4C1B6A2F360064B7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CDC4D4E1B6A2F360064B7A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2CDC4D511B6A2F360064B7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2CDC4D571B6A2F360064B7A7 /* Square_Cash_NumPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Square_Cash_NumPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CDC4D5C1B6A2F360064B7A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CDC4D5D1B6A2F360064B7A7 /* Square_Cash_NumPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square_Cash_NumPadTests.m; sourceTree = "<group>"; };
+		2CDC4D681B6A304A0064B7A7 /* NumpadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumpadView.h; sourceTree = "<group>"; };
+		2CDC4D691B6A304A0064B7A7 /* NumpadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumpadView.m; sourceTree = "<group>"; };
+		2CDC4D6A1B6A304A0064B7A7 /* NumpadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumpadView.xib; sourceTree = "<group>"; };
+		2CDC4D6E1B6A322C0064B7A7 /* BBCyclingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCyclingLabel.h; sourceTree = "<group>"; };
+		2CDC4D6F1B6A322C0064B7A7 /* BBCyclingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCyclingLabel.m; sourceTree = "<group>"; };
+		2CDC4D721B6A34E10064B7A7 /* cancelbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancelbtn.png; sourceTree = "<group>"; };
+		2CDC4D751B6A37FB0064B7A7 /* GOTHAM-BOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-BOLD.OTF"; sourceTree = "<group>"; };
+		2CDC4D761B6A37FB0064B7A7 /* GOTHAM-BOLDITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-BOLDITALIC.OTF"; sourceTree = "<group>"; };
+		2CDC4D771B6A37FB0064B7A7 /* GOTHAM-BOOK.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-BOOK.OTF"; sourceTree = "<group>"; };
+		2CDC4D781B6A37FB0064B7A7 /* GOTHAM-BOOKITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-BOOKITALIC.OTF"; sourceTree = "<group>"; };
+		2CDC4D791B6A37FB0064B7A7 /* GOTHAM-LIGHT.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-LIGHT.OTF"; sourceTree = "<group>"; };
+		2CDC4D7A1B6A37FB0064B7A7 /* GOTHAM-LIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-LIGHTITALIC.OTF"; sourceTree = "<group>"; };
+		2CDC4D7B1B6A37FB0064B7A7 /* GOTHAM-MEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-MEDIUM.OTF"; sourceTree = "<group>"; };
+		2CDC4D7C1B6A37FB0064B7A7 /* GOTHAM-MEDIUMITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-MEDIUMITALIC.OTF"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2CDC4D3B1B6A2F360064B7A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CDC4D541B6A2F360064B7A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				2CDC4D401B6A2F360064B7A7 /* Square_Cash_NumPad */,
-				2CDC4D5A1B6A2F360064B7A7 /* Square_Cash_NumPadTests */,
 				2CDC4D3F1B6A2F360064B7A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				2CDC4D3E1B6A2F360064B7A7 /* Square_Cash_NumPad.app */,
-				2CDC4D571B6A2F360064B7A7 /* Square_Cash_NumPadTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,13 +77,12 @@
 		2CDC4D401B6A2F360064B7A7 /* Square_Cash_NumPad */ = {
 			isa = PBXGroup;
 			children = (
+				2CDC4D741B6A37FB0064B7A7 /* gothamfonts */,
+				2CDC4D721B6A34E10064B7A7 /* cancelbtn.png */,
+				2CDC4D671B6A304A0064B7A7 /* Class */,
 				2CDC4D451B6A2F360064B7A7 /* AppDelegate.h */,
 				2CDC4D461B6A2F360064B7A7 /* AppDelegate.m */,
-				2CDC4D481B6A2F360064B7A7 /* ViewController.h */,
-				2CDC4D491B6A2F360064B7A7 /* ViewController.m */,
-				2CDC4D4B1B6A2F360064B7A7 /* Main.storyboard */,
 				2CDC4D4E1B6A2F360064B7A7 /* Images.xcassets */,
-				2CDC4D501B6A2F360064B7A7 /* LaunchScreen.xib */,
 				2CDC4D411B6A2F360064B7A7 /* Supporting Files */,
 			);
 			path = Square_Cash_NumPad;
@@ -102,21 +97,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2CDC4D5A1B6A2F360064B7A7 /* Square_Cash_NumPadTests */ = {
+		2CDC4D671B6A304A0064B7A7 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				2CDC4D5D1B6A2F360064B7A7 /* Square_Cash_NumPadTests.m */,
-				2CDC4D5B1B6A2F360064B7A7 /* Supporting Files */,
+				2CDC4D6D1B6A322C0064B7A7 /* BBCyclingLabel */,
+				2CDC4D681B6A304A0064B7A7 /* NumpadView.h */,
+				2CDC4D691B6A304A0064B7A7 /* NumpadView.m */,
+				2CDC4D6A1B6A304A0064B7A7 /* NumpadView.xib */,
 			);
-			path = Square_Cash_NumPadTests;
+			path = Class;
 			sourceTree = "<group>";
 		};
-		2CDC4D5B1B6A2F360064B7A7 /* Supporting Files */ = {
+		2CDC4D6D1B6A322C0064B7A7 /* BBCyclingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				2CDC4D5C1B6A2F360064B7A7 /* Info.plist */,
+				2CDC4D6E1B6A322C0064B7A7 /* BBCyclingLabel.h */,
+				2CDC4D6F1B6A322C0064B7A7 /* BBCyclingLabel.m */,
 			);
-			name = "Supporting Files";
+			path = BBCyclingLabel;
+			sourceTree = "<group>";
+		};
+		2CDC4D741B6A37FB0064B7A7 /* gothamfonts */ = {
+			isa = PBXGroup;
+			children = (
+				2CDC4D751B6A37FB0064B7A7 /* GOTHAM-BOLD.OTF */,
+				2CDC4D761B6A37FB0064B7A7 /* GOTHAM-BOLDITALIC.OTF */,
+				2CDC4D771B6A37FB0064B7A7 /* GOTHAM-BOOK.OTF */,
+				2CDC4D781B6A37FB0064B7A7 /* GOTHAM-BOOKITALIC.OTF */,
+				2CDC4D791B6A37FB0064B7A7 /* GOTHAM-LIGHT.OTF */,
+				2CDC4D7A1B6A37FB0064B7A7 /* GOTHAM-LIGHTITALIC.OTF */,
+				2CDC4D7B1B6A37FB0064B7A7 /* GOTHAM-MEDIUM.OTF */,
+				2CDC4D7C1B6A37FB0064B7A7 /* GOTHAM-MEDIUMITALIC.OTF */,
+			);
+			path = gothamfonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +152,6 @@
 			productReference = 2CDC4D3E1B6A2F360064B7A7 /* Square_Cash_NumPad.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2CDC4D561B6A2F360064B7A7 /* Square_Cash_NumPadTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2CDC4D641B6A2F360064B7A7 /* Build configuration list for PBXNativeTarget "Square_Cash_NumPadTests" */;
-			buildPhases = (
-				2CDC4D531B6A2F360064B7A7 /* Sources */,
-				2CDC4D541B6A2F360064B7A7 /* Frameworks */,
-				2CDC4D551B6A2F360064B7A7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2CDC4D591B6A2F360064B7A7 /* PBXTargetDependency */,
-			);
-			name = Square_Cash_NumPadTests;
-			productName = Square_Cash_NumPadTests;
-			productReference = 2CDC4D571B6A2F360064B7A7 /* Square_Cash_NumPadTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +163,6 @@
 				TargetAttributes = {
 					2CDC4D3D1B6A2F360064B7A7 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					2CDC4D561B6A2F360064B7A7 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 2CDC4D3D1B6A2F360064B7A7;
 					};
 				};
 			};
@@ -189,7 +180,6 @@
 			projectRoot = "";
 			targets = (
 				2CDC4D3D1B6A2F360064B7A7 /* Square_Cash_NumPad */,
-				2CDC4D561B6A2F360064B7A7 /* Square_Cash_NumPadTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +189,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CDC4D4D1B6A2F360064B7A7 /* Main.storyboard in Resources */,
-				2CDC4D521B6A2F360064B7A7 /* LaunchScreen.xib in Resources */,
+				2CDC4D7F1B6A37FB0064B7A7 /* GOTHAM-BOOK.OTF in Resources */,
+				2CDC4D7D1B6A37FB0064B7A7 /* GOTHAM-BOLD.OTF in Resources */,
+				2CDC4D801B6A37FB0064B7A7 /* GOTHAM-BOOKITALIC.OTF in Resources */,
+				2CDC4D7E1B6A37FB0064B7A7 /* GOTHAM-BOLDITALIC.OTF in Resources */,
+				2CDC4D831B6A37FB0064B7A7 /* GOTHAM-MEDIUM.OTF in Resources */,
+				2CDC4D811B6A37FB0064B7A7 /* GOTHAM-LIGHT.OTF in Resources */,
 				2CDC4D4F1B6A2F360064B7A7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CDC4D551B6A2F360064B7A7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2CDC4D731B6A34E10064B7A7 /* cancelbtn.png in Resources */,
+				2CDC4D6C1B6A304A0064B7A7 /* NumpadView.xib in Resources */,
+				2CDC4D821B6A37FB0064B7A7 /* GOTHAM-LIGHTITALIC.OTF in Resources */,
+				2CDC4D841B6A37FB0064B7A7 /* GOTHAM-MEDIUMITALIC.OTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,48 +210,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CDC4D4A1B6A2F360064B7A7 /* ViewController.m in Sources */,
+				2CDC4D701B6A322C0064B7A7 /* BBCyclingLabel.m in Sources */,
 				2CDC4D471B6A2F360064B7A7 /* AppDelegate.m in Sources */,
+				2CDC4D6B1B6A304A0064B7A7 /* NumpadView.m in Sources */,
 				2CDC4D441B6A2F360064B7A7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2CDC4D531B6A2F360064B7A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CDC4D5E1B6A2F360064B7A7 /* Square_Cash_NumPadTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2CDC4D591B6A2F360064B7A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2CDC4D3D1B6A2F360064B7A7 /* Square_Cash_NumPad */;
-			targetProxy = 2CDC4D581B6A2F360064B7A7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2CDC4D4B1B6A2F360064B7A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CDC4D4C1B6A2F360064B7A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2CDC4D501B6A2F360064B7A7 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CDC4D511B6A2F360064B7A7 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2CDC4D5F1B6A2F360064B7A7 /* Debug */ = {
@@ -359,40 +316,6 @@
 			};
 			name = Release;
 		};
-		2CDC4D651B6A2F360064B7A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Square_Cash_NumPadTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Square_Cash_NumPad.app/Square_Cash_NumPad";
-			};
-			name = Debug;
-		};
-		2CDC4D661B6A2F360064B7A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Square_Cash_NumPadTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Square_Cash_NumPad.app/Square_Cash_NumPad";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,14 +333,6 @@
 			buildConfigurations = (
 				2CDC4D621B6A2F360064B7A7 /* Debug */,
 				2CDC4D631B6A2F360064B7A7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2CDC4D641B6A2F360064B7A7 /* Build configuration list for PBXNativeTarget "Square_Cash_NumPadTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2CDC4D651B6A2F360064B7A7 /* Debug */,
-				2CDC4D661B6A2F360064B7A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
